@@ -19,15 +19,18 @@ This project classifies human emotions like **Happy**, **Sad**, **Angry**, and *
 - [🧠 How the Model Works](#-how-the-model-works)
 - [📁 Project Structure](#-project-structure)
 - [🛠️ Installation](#️-installation)
-- [🎯 Recreate the Model (Step-by-Step)](#-recreate-the-model-step-by-step)
-  - [🔹 Step 1: Preprocess the Dataset](#-step-1-preprocess-the-dataset)
-  - [🔹 Step 2: Train the Classifier](#-step-2-train-the-classifier)
-  - [🔹 Step 3: Run Inference](#-step-3-run-inference)
-- [🧪 Sample Output](#-sample-output)
-  - [1. Classification Report](#1-classification-report)
-  - [2. Prediction Output](#2-prediction-output)
-  - [3. Confusion Matrix](#3-confusion-matrix)
-  - [4. Wave-Output](#4-wave-output)
+
+### 🎯 Recreate the Model (Step-by-Step)
+- [🔹 Step 1: Preprocess the Dataset](#-step-1-preprocess-the-dataset)
+- [🔹 Step 2: Train the Classifier](#-step-2-train-the-classifier)
+- [🔹 Step 3: Run Inference](#-step-3-run-inference)
+
+### 🧪 Sample Output
+- [📊 Classification Report](#1-classification-report)
+- [🔍 Prediction Output](#2-prediction-output)
+- [📉 Confusion Matrix](#3-confusion-matrix)
+- [📈 Wave-Output](#4-wave-output)
+
 - [🔍 Model Details](#-model-details)
 - [🌟 Features](#-features)
 - [📦 Requirements](#-requirements)
