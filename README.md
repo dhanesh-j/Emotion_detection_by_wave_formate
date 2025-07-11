@@ -128,7 +128,7 @@ Here’s a visual summary of the model's performance across different emotions:
 The graph shows high precision and recall for emotions like *Sad* and *Neutral*, with consistent accuracy across all categories.
 
 ### 2.Prediction Output
-<img src="sample_output/prediction output.png"  width = "600"/>
+<img src="sample_output/live_prediction.png"  width = "600"/>
 The above image represents the Emotion Detected after analysing the audio in realtime (live recorded audio).
 
 ### 3.Confusion Matrix
