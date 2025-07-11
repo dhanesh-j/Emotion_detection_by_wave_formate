@@ -21,9 +21,9 @@ This project classifies human emotions like **Happy**, **Sad**, **Angry**, and *
 - [🛠️ Installation](#️-installation)
 
 ### 🎯 Recreate the Model (Step-by-Step)
-- [🔹 Step 1: Preprocess the Dataset](#-step-1-preprocess-the-dataset)
-- [🔹 Step 2: Train the Classifier](#-step-2-train-the-classifier)
-- [🔹 Step 3: Run Inference](#-step-3-run-inference)
+- [Step 1: Preprocess the Dataset](#-step-1-preprocess-the-dataset)
+- [Step 2: Train the Classifier](#-step-2-train-the-classifier)
+- [Step 3: Run Inference](#-step-3-run-inference)
 
 ### 🧪 Sample Output
 - [📊 Classification Report](#1-classification-report)
