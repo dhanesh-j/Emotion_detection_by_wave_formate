@@ -98,19 +98,20 @@ Here’s a visual summary of the model's performance across different emotions:
 
 ### 1. Classification Report
 <img src="sample_output/classification report.png" width="600"/>
-> The graph shows high precision and recall for emotions like *Sad* and *Neutral*, with consistent accuracy across all categories.
+The graph shows high precision and recall for emotions like *Sad* and *Neutral*, with consistent accuracy across all categories.
 
 ### 2.Prediction Output
-<img src="sample_output/prediciton output.png" width = "800"/>
->The above image represents the Emotion Detected after analysing the audio in realtime (live recorded audio).
+<img src="sample_output/prediction output.png"  width = "600"/>
+The above image represents the Emotion Detected after analysing the audio in realtime (live recorded audio).
 
 ### 3.Confusion Matrix
 <img src="sample_output/Confusion_matrix.png" width = "600"/>
+The above image represents the confusion matrix of the model
 
 ### 4. Wave-Output
 
 <img src="sample_output/RecordedAudioWaveform.jpg" width="600"/>
->The above image represents the Realtime Wave-Form of Recorded audio, measured by Time / Seconds.
+The above image represents the Realtime Wave-Form of Recorded audio, measured by Time / Seconds.
 
 ---
 
