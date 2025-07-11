@@ -13,7 +13,28 @@
 This project classifies human emotions like **Happy**, **Sad**, **Angry**, and **Neutral** directly from raw audio (`.wav`) files. It utilizes a Hugging Face pretrained model fine-tuned on the **RAVDESS** emotional speech dataset. The entire process—from preprocessing to training and inference—can be run using simple Python scripts.
 
 ---
+## 📚 Table of Contents
 
+- [🚀 Overview](#-overview)
+- [🧠 How the Model Works](#-how-the-model-works)
+- [📁 Project Structure](#-project-structure)
+- [🛠️ Installation](#️-installation)
+- [🎯 Recreate the Model (Step-by-Step)](#-recreate-the-model-step-by-step)
+  - [🔹 Step 1: Preprocess the Dataset](#-step-1-preprocess-the-dataset)
+  - [🔹 Step 2: Train the Classifier](#-step-2-train-the-classifier)
+  - [🔹 Step 3: Run Inference](#-step-3-run-inference)
+- [🧪 Sample Output](#-sample-output)
+  - [1. Classification Report](#1-classification-report)
+  - [2. Prediction Output](#2-prediction-output)
+  - [3. Confusion Matrix](#3-confusion-matrix)
+  - [4. Wave-Output](#4-wave-output)
+- [🔍 Model Details](#-model-details)
+- [🌟 Features](#-features)
+- [📦 Requirements](#-requirements)
+- [💡 Future Ideas](#-future-ideas)
+- [👨‍💻 Author](#-author)
+
+---
 ## 🧠 How the Model Works
 
 1. **Raw Audio Input**  
