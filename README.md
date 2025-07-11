@@ -16,10 +16,6 @@ This project classifies human emotions like **Happy**, **Sad**, **Angry**, and *
 
 ## 🧠 How the Model Works
 
-```
-.wav file ➜ Preprocessing (resample, normalize) ➜ HuBERT pretrained model ➜ Classifier Head ➜ Emotion Output
-```
-
 1. **Raw Audio Input**  
    You input a mono `.wav` file recorded at any sample rate.
 
@@ -98,13 +94,23 @@ python predict_emotion.py --model_dir model/final_emotion_model/ --input_audio s
 
 ## 🧪 Sample Output
 
-🖼️ **Example Output Screenshot (Place your image below)**  
-![Sample Output](sample_output/example_output.png)
+Here’s a visual summary of the model's performance across different emotions:
 
-```
-Predicted Emotion: Happy 😄
-Confidence: Happy (0.89), Sad (0.05), Angry (0.04), Neutral (0.02)
-```
+### 1. Classification Report
+<img src="sample_output/classification report.png" width="600"/>
+> The graph shows high precision and recall for emotions like *Sad* and *Neutral*, with consistent accuracy across all categories.
+
+### 2.Prediction Output
+<img src="sample_output/prediciton output.png" width = "800"/>
+>The above image represents the Emotion Detected after analysing the audio in realtime (live recorded audio).
+
+### 3.Confusion Matrix
+<img src="sample_output/Confusion_matrix.png" width = "600"/>
+
+### 4. Wave-Output
+
+<img src="sample_output/RecordedAudioWaveform.jpg" width="600"/>
+>The above image represents the Realtime Wave-Form of Recorded audio, measured by Time / Seconds.
 
 ---
 
@@ -155,10 +161,4 @@ pip install -r requirements.txt
 ## 👨‍💻 Author
 
 **Dhanesh J.**  
-Final-year Computer Science student passionate about AI, voice recognition, and applied ML.
-
----
-
-## 📃 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+Third-year mini project Computer Science student passionate about AI, voice recognition, and applied ML.
