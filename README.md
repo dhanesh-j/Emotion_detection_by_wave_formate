@@ -113,7 +113,7 @@ python train_emotion_model.py   --data_dir dataset/processed/   --pretrained_mod
 ```bash
 python predict_emotion.py --model_dir model/final_emotion_model/ --input_audio sample_output/sample.wav
 ```
-### 🔹 If u want to predict your own voice run this file
+### 🔹 For The Live Emotion Prediction Run This File
 ```
 record_and_predict.py
 ```
