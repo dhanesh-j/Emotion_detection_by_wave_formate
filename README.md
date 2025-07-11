@@ -185,5 +185,5 @@ pip install -r requirements.txt
 
 ## 👨‍💻 Author
 
-**Dhanesh J.**  
+**Dhanesh J. & Akash Krishnan**  
 Third-year mini project Computer Science student passionate about AI, voice recognition, and applied ML.
